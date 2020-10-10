@@ -12,16 +12,16 @@ using namespace std;
 int main()
 {
 	double a; //вхідний параметр
-	double z1; // результат обчислення 1-го виразу
-	// double z2; // результат обчислення 2-го виразу
+	// double z1; // результат обчислення 1-го виразу
+	double z2; // результат обчислення 2-го виразу
 
 	cout << " a = "; cin >> a;
 
-	z1 =  ( ((a + 2) / sqrt(2 * a)) - (a/(sqrt(2*a) + 2)) + (2.0/(a-sqrt(2*a))) ) * ( (sqrt(a) - sqrt(2)) / (a + 2) );
-	// z2 =  1.0 / (sqrt(a) + sqrt(2) );
+	// z1 =  ( ((a + 2) / sqrt(2 * a)) - (a/(sqrt(2*a) + 2)) + (2.0/(a-sqrt(2*a))) ) * ( (sqrt(a) - sqrt(2)) / (a + 2) );
+	z2 =  1.0 / (sqrt(a) + sqrt(2) );
 
-	cout << " z1 = " << z1 << endl;
-	// cout << " z2 = " << z2 << endl;
+	// cout << " z1 = " << z1 << endl;
+	cout << " z2 = " << z2 << endl;
 
 	cin.get();
 	system("pause"); 
